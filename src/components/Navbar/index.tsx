@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const Navbar = () => <nav className="h-10 bg-red-400 w-full">
+export const Navbar = () => <nav className="h-10  w-full px-9 py-9">
 	{/*
 	Wrapper
 	   Links
@@ -9,13 +9,18 @@ export const Navbar = () => <nav className="h-10 bg-red-400 w-full">
 		   link3
 	   NavLogo
 	*/}
-	inja navbar ast
-	<div className="flex gap-2 flex-col ">
+	
+	<div className='flex justify-between items-center '>
+		<Link href='/' className='justify-start'>
+			logo
+		</Link>
+	<div className="flex gap-2 justify-end">
 		{
-			links.map(i => <Link href={i.path} key={i.name}>
+			links.map(i => <Link href={i.path} key={i.name} className='p-4' >
 				{i.name}
 			</Link>)
 		}
+	</div>
 	</div>
 </nav>
 
@@ -24,6 +29,7 @@ const links = [
 		name: 'home',
 		path: '/',
 		description: 'the home page'
+		
 	},
 	{
 		name: 'home1',
