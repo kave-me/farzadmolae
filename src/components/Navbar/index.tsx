@@ -10,9 +10,15 @@ export const Navbar = () => <nav className="h-10 bg-red-400 w-full">
 	   NavLogo
 	*/}
 	inja navbar ast
-	<div className="flex gap-2 flex-col ">
+	<div className="flex gap-2 p-2 ">
 		{
-			links.map(i => <Link href={i.path} key={i.name}>
+			links.map(i => <Link href={i.path} key={i.name}
+			className={` border-2 border-red-700 ${
+				i.name==='blog'?'text-red-500':'text-blue-500'
+			}`}
+
+
+			>
 				{i.name}
 			</Link>)
 		}
@@ -26,7 +32,7 @@ const links = [
 		description: 'the home page'
 	},
 	{
-		name: 'home1',
+		name: 'blog',
 		path: '/',
 		description: 'the home page'
 	}, {
