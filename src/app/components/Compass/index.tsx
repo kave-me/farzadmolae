@@ -1,5 +1,6 @@
 import { iSection } from "@components/Section/types.section";
 
+// noinspection JSUnusedGlobalSymbols
 export const Compass: React.FC<{ sections: iSection[] }> = ({ sections }) => {
   return (
     <nav className='fixed left-[10px] top-1/2 -translate-y-1/2 '>

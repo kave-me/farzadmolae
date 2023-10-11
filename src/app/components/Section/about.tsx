@@ -4,6 +4,7 @@ import { ownerData } from "@data/owner.data";
 import Image from "next/image";
 import HeroImage from "@public/images/hero.jpg";
 
+// noinspection JSUnusedGlobalSymbols
 export const AboutSection = () => (
   <Section title={"Home"} id={"home"}>
     <div className='flex flex-col items-center justify-center min-h-screen w-full bg-blue-800 text-white border-b-2 '>
