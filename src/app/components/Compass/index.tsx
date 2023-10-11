@@ -1,4 +1,4 @@
-import { iSection } from "components/components/Section/types.section";
+import { iSection } from "@components/Section/types.section";
 
 export const Compass: React.FC<{ sections: iSection[] }> = ({ sections }) => {
   return (
