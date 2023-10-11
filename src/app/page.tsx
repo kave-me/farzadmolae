@@ -1,12 +1,32 @@
+import { iSection } from "@components/Section/types.section";
+import { HeroSection } from "@components/Section/Hero";
+
 export default function Home() {
-	return (
-		<main className="flex min-h-screen flex-col items-center justify-between bg-blue-800 p-24">
-			{/*  HERO section*/}
-			{/*  WHERE to start section */}
-			{/*  Work at home section */}
-			{/* Are you on budget section
-    offer a list of all services and prices */}
-			{/*  Contact me section*/}
-		</main>
-	)
+  const sections: iSection[] = [
+    {
+      title: "section1",
+      id: "section1",
+    },
+    {
+      title: "section2",
+      id: "section2",
+    },
+    {
+      title: "section3",
+      id: "section3",
+    },
+    {
+      title: "section4",
+      id: "section4",
+    },
+  ];
+
+  return (
+    <main className='flex min-h-screen flex-col items-center justify-between bg-background dark:bg-background-dark'>
+      <HeroSection />
+      {/*<AboutMeSection />*/}
+      {/*<GallerySection />*/}
+      {/*<ContactSection />*/}
+    </main>
+  );
 }
