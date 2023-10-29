@@ -1,17 +1,17 @@
 import Data from "@data/sections/call-to-action.json";
 import Link from "next/link";
 
-import ArrowIcon from "@layouts/svg-icons/Arrow";
+import { ArrowLeftSvg } from "@layouts/svg-icons/Arrow";
 
 const CallToActionSection = ({ bg }) => {
   return (
     <>
       {/* call to action */}
-      <section className="mil-soft-bg">
+      <section className="mil-soft-bg ">
         <div className="container mil-p-120-120">
           <div className="row">
             <div className="col-lg-10">
-              <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up"
+              <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up fa-fix "
                     dangerouslySetInnerHTML={{ __html: Data.subtitle }} />
             </div>
           </div>
@@ -20,7 +20,7 @@ const CallToActionSection = ({ bg }) => {
             <div className="mil-up">
               <Link href={Data.button.link} className="mil-button mil-arrow-place">
                 <span>{Data.button.label}</span>
-                <ArrowIcon />
+                <ArrowLeftSvg />
               </Link>
             </div>
           </div>

@@ -1,8 +1,8 @@
 {
-  "subtitle": "Looking to make your mark? We'll help you turn <br> your project into a success story.",
-  "title": "Ready to bring your <span class=\"mil-thin\">ideas to</span> life? <br> We're <span class=\"mil-thin\">here to help</span>",
+  "subtitle": "برای رسیدن به موفقیت، باید از آن لذت ببرید",
+  "title": "آماده‌اید که <span class=\"mil-thin\">سلامتی را</span> اولویت بذارید؟ <br> من برای <span class=\"mil-thin\">راهنمایی کنارتونم</span>",
   "button": {
-    "label": "Contact us",
+    "label": "تماس",
     "link": "/contact"
   }
 }

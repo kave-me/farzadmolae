@@ -1,7 +1,7 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import { AiFillInstagram, AiFillPhone } from "react-icons/ai";
-import { FaSmile, FaTelegram } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import Link from "next/link";
 import styled from "styled-components";
 import QRCode from "qrcode.react";
@@ -9,7 +9,7 @@ import QRCode from "qrcode.react";
 const Contact = () => {
   return (
     <Layouts>
-      <PageBanner pageTitle={"تماس با من"} breadTitle={"Contact"}
+      <PageBanner pageTitle={"تماس با من"} breadTitle={"تماس با من"}
                   anchorLabel={"پیام بده، زنگ بزن، کامنت بذار، بیا صحبت کنیم"}
                   anchorLink={"#contact"} paddingBottom={1} align={"center"} />
 
@@ -38,7 +38,7 @@ const Contact = () => {
             <span className={"mil-thin"}> کنیم</span>
 
           </h3>
-          <h4 className={"mil-center mil-mb-15"}>
+          <h4 className={"mil-center mil-mb-30"}>
             <span className="mil-text-xl">لطفا برای ارتباط با من از یکی راه های زیر استفاده کنید</span>
           </h4>
 
@@ -49,13 +49,12 @@ const Contact = () => {
           <FlexCol>
             <FlexRow>
               <QRCode value="https://www.instagram.com/reza.shirazii77" renderAs="canvas" bgColor={"#d62976"}
-                      includeMargin={true} style={{ margin: "10px" }} />
+                      includeMargin={true} style={{ margin: "15px" }} />
               <QRCode value="https://t.me/farzadmolayii" renderAs="canvas" bgColor={"#1c92d2"} includeMargin={true}
-                      style={{ margin: "10px" }} />
+                      style={{ margin: "15px" }} />
               <QRCode value="tel:+989046153707" renderAs="canvas" bgColor={"#20de6b"} includeMargin={true}
-                      style={{ margin: "10px" }} />
+                      style={{ margin: "15px" }} />
             </FlexRow>
-            <FaSmile size={30} color={"#ff9800"} />
             <FlexRow>
 
               <Link href={"https://www.instagram.com/reza.shirazii77"}>
