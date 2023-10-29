@@ -8,8 +8,6 @@ import { Accordion } from "../../common/utilits";
 import Link from "next/link";
 
 import { getAllServicesIds, getRelatedServices, getServiceData } from "@library/services";
-
-import PricingSection from "@components/sections/Pricing";
 import RelatedServices from "@components/sections/RelatedServices";
 
 const ServiceDetail = ({ data, related }) => {
@@ -21,32 +19,32 @@ const ServiceDetail = ({ data, related }) => {
 
   return (
     <Layouts>
-      <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"About service"}
+      <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"توضیحات بیشتر"}
                   anchorLink={"#service"} />
 
       {/* service */}
       <section id="service">
-        <div className="container mil-p-120-90">
+        <div className="container mil-p-120-90 fa-fix ">
           <div className="row justify-content-between">
             <div className="col-lg-4 mil-relative mil-mb-90">
 
-              <h4 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: postData.description.title }} />
+              <h4 className="mil-up mil-mb-30  " dangerouslySetInnerHTML={{ __html: postData.description.title }} />
               <p className="mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: postData.description.content }} />
-              <div className="mil-up">
-                <Link href={postData.description.button.link} className="mil-link mil-dark mil-arrow-place">
+              <div className="mil-up fa-fix ">
+                <Link href={postData.description.button.link} className="mil-link mil-dark mil-arrow-place ">
                   <span>{postData.description.button.label}</span>
                 </Link>
               </div>
 
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 ">
               {postData.list != undefined &&
                 <>
                   {postData.list.items.map((item, key) => (
-                    <div className="mil-accordion-group mil-up" key={`service-list-${key}`}>
-                      <div className="mil-accordion-menu">
+                    <div className="mil-accordion-group mil-up fa-fix " key={`service-list-${key}`}>
+                      <div className="mil-accordion-menu ">
 
-                        <p className="mil-accordion-head">{item.label}</p>
+                        <p className="mil-accordion-head ">{item.label}</p>
 
                         <div className="mil-symbol mil-h3">
                           <div className="mil-plus">+</div>
@@ -66,7 +64,7 @@ const ServiceDetail = ({ data, related }) => {
       </section>
       {/* service end */}
 
-      <PricingSection />
+      {/*<PricingSection />*/}
 
       <RelatedServices services={related} />
 

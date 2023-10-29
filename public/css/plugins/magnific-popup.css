@@ -474,3 +474,16 @@ img.mfp-img {
     right: 0;
     padding-top: 0;
 }
+
+.k-breadcrumb {
+    /*background-color: red;*/
+    /*color:blue;*/
+
+    &, & * {
+        /*background-color: red;*/
+        /*color:blue;*/
+        direction: rtl;
+        text-align: right;
+
+    }
+}

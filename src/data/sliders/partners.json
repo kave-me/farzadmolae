@@ -1,20 +1,20 @@
 {
   "items": [
     {
-      "image": "/img/partners/1.svg",
-      "alt": "logo"
+      "image": "/img/partners/evogen.png",
+      "alt": "Evogen logo"
     },
     {
-      "image": "/img/partners/2.svg",
-      "alt": "logo"
+      "image": "/img/partners/bpisport.jpeg",
+      "alt": "BPISport logo"
     },
     {
-      "image": "/img/partners/1.svg",
-      "alt": "logo"
+      "image": "/img/partners/reflex.png",
+      "alt": "Reflex Logo"
     },
     {
-      "image": "/img/partners/2.svg",
-      "alt": "logo"
+      "image": "/img/partners/beast.png",
+      "alt": "Beast Logo"
     }
   ]
 }

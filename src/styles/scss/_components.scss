@@ -240,8 +240,9 @@ frame
       pointer-events: none;
       font-weight: 500;
       text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 12px;
+      //letter-spacing: 2px;
+      padding: 0 30px;
+      font-size: 14px;
       width: 300px;
       color: $dark;
       transform: rotate(-90deg) translateX(138px) translateY(-138px);
@@ -1611,7 +1612,7 @@ revievs
     }
 
     & .mil-custom-dot {
-      background-color: red;
+      background-color: gray;
       width: 90px;
       height: 90px;
       border-radius: 50%;
@@ -1626,31 +1627,31 @@ revievs
 
 
       &.mil-slide-1 {
-        background-image: url(/img/faces/customers/1.jpg);
+        background-image: url(/img/testim/1.jpg);
       }
 
       &.mil-slide-2 {
-        background-image: url(/img/faces/customers/2.jpg);
+        background-image: url(/img/testim/2.jpg);
       }
 
       &.mil-slide-3 {
-        background-image: url(/img/faces/customers/3.jpg);
+        background-image: url(/img/testim/3.jpg);
       }
 
       &.mil-slide-4 {
-        background-image: url(/img/faces/customers/4.jpg);
+        background-image: url(/img/testim/4.jpg);
       }
 
       &.mil-slide-5 {
-        background-image: url(/img/faces/customers/5.jpg);
+        background-image: url(/img/testim/5.jpg);
       }
 
       &.mil-slide-6 {
-        background-image: url(/img/faces/customers/6.jpg);
+        background-image: url(/img/testim/6.jpg);
       }
 
       &.mil-slide-7 {
-        background-image: url(/img/faces/customers/7.jpg);
+        background-image: url(/img/testim/7.jpg);
       }
     }
 

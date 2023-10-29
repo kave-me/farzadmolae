@@ -7,7 +7,7 @@ const RelatedServicesSection = ({ services }) => {
     <>
       {/* related services */}
       <section>
-        <div className="container mil-p-120-90">
+        <div className="container mil-p-120-90 fa-fix ">
           <div className="row align-items-center mil-mb-30">
             <div className="col-lg-6 mil-mb-30">
               <h3 className="mil-up">{Data.title}</h3>

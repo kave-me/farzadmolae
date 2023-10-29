@@ -7,17 +7,17 @@ import CallToActionSection from "@components/sections/CallToAction";
 
 import Link from "next/link";
 
-import ArrowIcon from "@layouts/svg-icons/Arrow";
+import { ArrowLeftSvg } from "@layouts/svg-icons/Arrow";
 import LinesIcon from "@layouts/svg-icons/Lines";
 
 const Services = (props) => {
   return (
     <Layouts>
       {/* banner */}
-      <div className="mil-dark-bg">
+      <div className="mil-dark-bg fa-fix">
         <PageBannerDark
-          pageTitle={"This is <span className=\"mil-thin\">what</span><br> we do <span className=\"mil-thin\">best</span>"}
-          breadTitle={"Services"} anchorLabel={"Our services"} anchorLink={"#services"} />
+          pageTitle={"خدمات ما"}
+          breadTitle={"خدمات"} anchorLabel={"خدمات"} anchorLink={"#services"} />
 
         {/* services */}
         <section id="services">
@@ -39,16 +39,16 @@ const Services = (props) => {
                               className={key % 2 == 0 ? "mil-service-card-lg mil-more mil-accent-cursor mil-offset" : "mil-service-card-lg mil-more mil-accent-cursor"}>
                           <h4 className="mil-muted mil-up mil-mb-30"
                               dangerouslySetInnerHTML={{ __html: item.preview_title }} />
-                          <p className="mil-descr mil-light-soft mil-up mil-mb-30">{item.short}</p>
+                          <p className="mil-descr mil-light-soft mil-up mil-mb-30 px-0 ">{item.short}</p>
                           <ul className="mil-service-list mil-light mil-mb-30">
                             {item.list.items.slice(0, 4).map((list_item, list_key) => (
                               <li className="mil-up"
                                   key={`services-item-${key}-list-${list_key}`}>{list_item.label}</li>
                             ))}
                           </ul>
-                          <div className="mil-link mil-accent mil-arrow-place mil-up">
-                            <span>Read more</span>
-                            <ArrowIcon />
+                          <div className=" mil-link mil-accent mil-arrow-place mil-up">
+                            <span className={"px-4"}>بیشتر بخوانید</span>
+                            <ArrowLeftSvg />
                           </div>
                         </Link>
                       </div>

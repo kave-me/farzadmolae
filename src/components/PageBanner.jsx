@@ -26,41 +26,31 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
       </Head>
 
       {/* banner */}
-      <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
+      <div className={paddingBottom ? "mil-inner-banner mil-p-0-120 rtl " : "mil-inner-banner rtl "}>
         <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"}>
           <div className="mil-animation-frame">
-            <div className="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="6" data-value-2="1.4">
+            <div className="mil-animation mil-position-4 mil-scale" data-value-1="6" data-value-2="1.4">
               <Pentagon /></div>
           </div>
-          <div className="container fa">
+          <div className="container  fa k-breadcrumb fa-fix  ">
             <ul className={align == "center" ? "mil-breadcrumbs mil-center mil-mb-60" : "mil-breadcrumbs mil-mb-60"}>
-              <li><Link href="/">Homepage</Link></li>
-              {asPath.indexOf("/blog/") != -1 &&
-                <li>
-                  <Link href="/blog">Blog</Link>
-                </li>
-              }
-              {asPath.indexOf("/projects/") != -1 &&
-                <li>
-                  <Link href="/projects">Projects</Link>
-                </li>
-              }
+              <li><Link href="/">خانه</Link></li>
               {asPath.indexOf("/services/") != -1 &&
                 <li>
-                  <Link href="/services">Services</Link>
+                  <Link href="/services">خدمات</Link>
                 </li>
               }
               <li><a dangerouslySetInnerHTML={{ __html: clearBreadTitle }} /></li>
             </ul>
             {headingSize == 1 &&
-              <h1 className="mil-mb-60" dangerouslySetInnerHTML={{ __html: pageTitle }} />
+              <h1 className="mil-mb-60   " dangerouslySetInnerHTML={{ __html: pageTitle }} />
             }
             {headingSize == 2 &&
               <h2 className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{ __html: pageTitle }} />
             }
             {anchorLink != 0 &&
-              <a href={anchorLink} className="mil-link mil-dark mil-arrow-place mil-down-arrow fa-fix">
-                <span>{anchorLabel}</span>
+              <a href={anchorLink} className="mil-link mil-dark mil-arrow-place mil-down-arrow ">
+                <span className={"p-x-4"}>{anchorLabel}</span>
                 <ArrowIcon />
               </a>
             }

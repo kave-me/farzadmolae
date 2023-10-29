@@ -8,12 +8,12 @@ const TestimonialSlider = () => {
   return (
     <>
       {/* reviews */}
-      <section className="mil-soft-bg">
+      <section className="mil-soft-bg ">
         <div className="container mil-p-120-120">
 
           <div className="row">
             <div className="col-lg-10">
-              <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up"
+              <span className="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up fa-fix  "
                     dangerouslySetInnerHTML={{ __html: Data.subtitle }} />
             </div>
           </div>
@@ -50,7 +50,7 @@ const TestimonialSlider = () => {
                          data-swiper-parallax-opacity="0">
                       <h5 className="mil-up mil-mb-10">{item.name}</h5>
                       <p className="mil-mb-5 mil-upper mil-up mil-mb-30">{item.role}</p>
-                      <p className="mil-text-xl mil-up">{item.text}</p>
+                      <p className="mil-text-xl mil-up fa-fix ">{item.text}</p>
                     </div>
                   </SwiperSlide>
                 ))}

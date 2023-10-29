@@ -30,32 +30,23 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
         <div className="mi-invert-fix">
           <div className="mil-banner-content mil-up">
             <div className="mil-animation-frame">
-              <div className="mil-animation mil-position-4 mil-scale" data-value-1="6" data-value-2="1.4"><Pentagon />
+              <div className="mil-animation mil-position-4 mil-scale " data-value-1="6" data-value-2="1.4"><Pentagon />
               </div>
             </div>
             <div className="container">
               <ul className="mil-breadcrumbs mil-light mil-mb-60">
-                <li><Link href="/">Homepage</Link></li>
-                {asPath.indexOf("/blog/") != -1 &&
-                  <li>
-                    <Link href="/blog">Blog</Link>
-                  </li>
-                }
-                {asPath.indexOf("/projects/") != -1 &&
-                  <li>
-                    <Link href="/projects">Projects</Link>
-                  </li>
-                }
+                <li><Link href="/">خانه</Link></li>
+
                 {asPath.indexOf("/services/") != -1 &&
                   <li>
-                    <Link href="/services">Services</Link>
+                    <Link href="/services">خدمات</Link>
                   </li>
                 }
                 <li><a dangerouslySetInnerHTML={{ __html: clearBreadTitle }} /></li>
               </ul>
               <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{ __html: pageTitle }} />
-              <a href={anchorLink} className="mil-link mil-accent mil-arrow-place mil-down-arrow">
-                <span>{anchorLabel}</span>
+              <a href={anchorLink} className="mil-link  mil-accent mil-arrow-place mil-down-arrow">
+                <span className={"px-4"}>{anchorLabel}</span>
                 <ArrowIcon />
               </a>
             </div>

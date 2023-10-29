@@ -1,42 +1,38 @@
 ---
-#preview details
-title: "Creative Consulting Concept Development"
-preview_title: "Creative Consulting <br>Concept Development"
-short: "Our creative agency is a team of professionals focused on helping your brand grow."
+# جزئیات پیش‌نمایش
+title: "برنامه‌ تغذیه"
+preview_title: "برنامه‌ریزی تغذیه <br>تناسب اندام"
+short: "برنامه‌ریزی تخصصی برای بدن شما."
 
-#full details
-introTitle: Creative <span class="mil-thin">Consulting</span><br> and <span class="mil-thin">Concept</span> Development
+# جزئیات کامل
+introTitle: برنامه <span class="mil-thin">تغذیه</span><br>متناسب با <span class="mil-thin">اهداف</span>  شما
 
 description:
-  title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
-  content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
+  title: شریک <span class="mil-thin">تناسب اندام</span> <br>و <span class="mil-thin">تغذیه</span> شما
+  content: بر اساس وضعیت فعلی بدن شما و اهداف نهایی تناسب اندامتان، برنامه‌های رژیم غذایی هیپوکالریک سفارشی من به گونه‌ای طراحی شده‌اند که مؤثر و در عین حال آسان برای پیروی باشند. رویکرد من تضمین می‌کند که شما یک نقشه راه تغذیه‌ای مخصوص به خود را دریافت کنید، که پیشرفت سلامت و تناسب اندام ایده‌آل را ترویج می‌کند.
   button:
-    link: /projects
-    label: View works
+    link: /services
+    label: خدمات بیشتر
 
 list:
   items:
-    - label: "UX Audits"
+    - label: "پیشنهادات تغذیه‌ای شخصی‌سازی شده"
       value: "
-      <p>A UX audit is a service that evaluates the user experience (UX) of a website. It involves analyzing the website's design, functionality, and content to identify areas of improvement that can enhance the user's overall experience.</p>
-      <p>During a UX audit, a team of UX experts will conduct a thorough review of the website and provide a comprehensive report that outlines specific recommendations for improving the website's usability, accessibility, and overall user experience.</p>
-      <p>The audit may cover various aspects of the website, such as navigation, layout, visual design, content structure, and mobile responsiveness. The goal is to identify any pain points or obstacles that users may encounter while browsing the website and provide actionable recommendations to improve their experience.</p>
-      <p>In summary, a UX audit can help website owners identify areas of improvement that can enhance their website's user experience and increase user engagement and satisfaction.</p>
+      <p> بدنی منحصر به فرد است و نیاز به برنامه شخصی‌سازی شده دارد، که شامل ارزیابی وضعیت فیزیکی فعلی شما، ترجیحات غذایی و اهداف تناسب اندام خاص شما می‌شود تا برنامه‌ای تغذیه‌ای باید نه تنها مؤثر بلکه پایدار و لذت‌بخش هم باشد.</p>
       "
 
-    - label: "Design thinking"
+    - label: "رژیم هیپوکالریک"
       value: "
-      <p>Design thinking is a problem-solving approach that emphasizes empathy, creativity, and collaboration. It involves understanding the needs and perspectives of users, identifying and defining the problem, generating multiple possible solutions, prototyping and testing those solutions, and iterating based on feedback.</p>
-      <p>Design thinking encourages a human-centered approach to innovation and is often used in fields such as product design, user experience (UX) design, and business strategy to create user-centric and innovative solutions. It promotes a mindset that embraces experimentation, iteration, and continuous learning throughout the design process.</p>
+      <p>رژیم هیپوکالریک شامل مصرف کالری کمتر از آنچه بدن شما می‌سوزاند است. این روش از نظر علمی برای کمک به کاهش چربی ضمن حفظ توده عضلانی ثابت شده است. برنامه‌های هیپوکالریک سفارشی من با دقت محاسبه شده‌اند تا اطمینان حاصل شود که آن‌ها نیازهای تغذیه‌ای بدن شما را برآورده کرده و مدیریت سالم وزن تظمین می‌کنند.</p>
       "
 
-    - label: "Wireframing"
+    - label: "پشتیبانی مداوم"
       value: "
-      <p>Wireframing is a vital step in web design where a visual representation of a website's structure is created. It focuses on layout and user experience, using basic shapes and lines to outline elements like headers, menus, and content sections. Wireframes establish the website's architecture and functionality, facilitating communication between designers, developers, and clients. They serve as a blueprint for user-friendly websites, setting the foundation for design and development.</p>
+      <p>برنامه تناسب اندام شما یک فرایند پویا است. همزمان با تلاش شما من هم پشتیبانی مداوم ارائه می‌دهم و بر اساس پیشرفت و بازخورد شما، تنظیمات لازم را در برنامه تغذیه‌ای شما در نظر میگیرم. به این ترتیب می‌توانید اطمینان حاصل می‌کند که برنامه همچنان مؤثر و با اهداف تناسب اندام و سبک زندگی شما است.</p>
       "
 
-    - label: "Methodologies"
+    - label: "آموزش و ارزیابی"
       value: "
-      <p>Libero quam alias tempora facilis necessitatibus quis officiis voluptatem architecto harum exercitationem quidem illum eligendi. Veniam non vitae, nemo dolor tempora, necessitatibus enim sapiente quam voluptas architecto minima omnis sequi aperiam aliquam vel quo reprehenderit, tempore tenetur. Architecto dolorem assumenda voluptas, odio nemo vero illo praesentium pariatur, ut perspiciatis, est itaque minus ratione vitae laboriosam molestiae.</p>
+      <p>در کنار برنامه‌ریزی شخصی روی آموزش شما در مورد تغذیه و سلامتی تمرکز می‌کنم تا با این دانش بتوانید تصمیمات آگاهانه‌ای در مورد رژیم غذایی و سلامت خود بگیرید این اظلاعات کمک می‌کند تا تناسب اندام خود را در بلند مدت حفظ کنید.</p>
       "
 ---

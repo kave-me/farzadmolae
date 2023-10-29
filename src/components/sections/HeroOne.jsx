@@ -40,10 +40,10 @@ const HeroOne = () => {
                   <span>{Data.button1.label}</span>
                 </Link>
 
-                <Link href={Data.button2.link} className="mil-link mil-link-rtl mil-muted mil-arrow-place">
-                  <span>{Data.button2.label}</span>
-                  <ArrowLeftSvg />
-                </Link>
+                {/*<Link href={Data.button2.link} className="mil-link mil-link-rtl mil-muted mil-arrow-place">*/}
+                {/*  <span>{Data.button2.label}</span>*/}
+                {/*  <ArrowLeftSvg />*/}
+                {/*</Link>*/}
               </div>
 
             </div>
