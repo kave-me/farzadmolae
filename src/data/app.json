@@ -63,10 +63,6 @@
         "link": "/"
       },
       {
-        "label": "درباره من",
-        "link": "/about"
-      },
-      {
         "label": "خدمات",
         "link": "/services"
       },
@@ -85,7 +81,7 @@
     {
       "link": "https://t.me/farzadmolayii",
       "icon": "fab fa-telegram",
-      "title": "Telegram"
+      "title": "تلگرام"
     }
   ]
 }
