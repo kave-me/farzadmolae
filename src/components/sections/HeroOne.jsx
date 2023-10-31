@@ -23,8 +23,8 @@ const HeroOne = () => {
 
           <div className="mil-gradient" />
 
-          <div className="container">
-            <div className="mil-banner-content mil-up mil-up-200 proper-farsi">
+          <div className="container mobile-hero ">
+            <div className="mil-banner-content mil-up mil-up-200 proper-farsi  ">
 
               <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{ __html: Data.title }} />
 
