@@ -1,5 +1,6 @@
 import Data from "@data/sections/about.json";
 import LinesIcon from "@layouts/svg-icons/Lines";
+import VideoModal from "@components/video-modal/VideoModal";
 
 const AboutSection = () => {
   return (
@@ -21,6 +22,9 @@ const AboutSection = () => {
                 {/*    </div>*/}
                 {/*    <h6 className="mil-quote mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />*/}
                 {/*</div>*/}
+                <div className="video-btn-wrapper">
+                  <VideoModal />
+                </div>
               </div>
 
             </div>
@@ -38,6 +42,7 @@ const AboutSection = () => {
 
             </div>
           </div>
+
         </div>
       </section>
       {/* about end */}

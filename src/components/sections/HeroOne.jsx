@@ -51,7 +51,10 @@ const HeroOne = () => {
         </div>
       </section>
       {/* banner end */}
+
+
     </>
   );
 };
 export default HeroOne;
+
