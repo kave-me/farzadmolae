@@ -32,7 +32,7 @@ const VideoModal = () => {
     <div>
       <button onClick={handleOpen} className={styles.button}>
 
-        <span>ویدیو معرفی</span>
+        <span>ویدیو معرفی (یک دقیقه) </span>
         <FaPlayCircle style={{ width: "40px", height: "40px" }} />
       </button>
       {isOpen && (
