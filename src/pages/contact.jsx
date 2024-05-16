@@ -48,7 +48,7 @@ const Contact = () => {
 
           <FlexCol>
             <FlexRow>
-              <QRCode value="https://www.instagram.com/reza.shirazii77" renderAs="canvas" bgColor={"#d62976"}
+              <QRCode value="https://www.instagram.com/farzadmolae_" renderAs="canvas" bgColor={"#d62976"}
                       includeMargin={true} style={{ margin: "15px" }} />
               <QRCode value="https://t.me/farzadmolayii" renderAs="canvas" bgColor={"#1c92d2"} includeMargin={true}
                       style={{ margin: "15px" }} />
@@ -57,7 +57,7 @@ const Contact = () => {
             </FlexRow>
             <FlexRow>
 
-              <Link href={"https://www.instagram.com/reza.shirazii77"}>
+              <Link href={"https://www.instagram.com/farzadmolae_"}>
                 <StyledInstagramIcon />
               </Link>
               <Link href={"https://t.me/farzadmolayii"}>
