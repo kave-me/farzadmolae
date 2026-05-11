@@ -1,4 +1,4 @@
-import SwiperCore, {
+import {
   A11y,
   Autoplay,
   EffectCreative,
@@ -13,12 +13,12 @@ import SwiperCore, {
   Scrollbar,
   Thumbs,
   Virtual,
-} from "swiper";
+} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-SwiperCore.use([
+const modules = [
   Mousewheel,
   Pagination,
   Navigation,
@@ -34,12 +34,13 @@ SwiperCore.use([
   Scrollbar,
   Keyboard,
   A11y,
-]);
+];
 
 var menu = ["<div class=\"mil-custom-dot mil-slide-1\"></div>", "<div class=\"mil-custom-dot mil-slide-2\"></div>", "<div class=\"mil-custom-dot mil-slide-3\"></div>", "<div class=\"mil-custom-dot mil-slide-4\"></div>", "<div class=\"mil-custom-dot mil-slide-5\"></div>", "<div class=\"mil-custom-dot mil-slide-6\"></div>", "<div class=\"mil-custom-dot mil-slide-7\"></div>"];
 
 export const SliderProps = {
   milReviewsSlider: {
+    modules,
     pagination: {
       el: ".mil-revi-pagination",
       clickable: true,
@@ -56,6 +57,7 @@ export const SliderProps = {
     },
   },
   milInfiniteSlider: {
+    modules,
     slidesPerView: 2,
     spaceBetween: 30,
     speed: 5000,
@@ -72,6 +74,7 @@ export const SliderProps = {
     },
   },
   milPortfolioSlider: {
+    modules,
     slidesPerView: 1,
     spaceBetween: 0,
     speed: 800,
@@ -89,6 +92,7 @@ export const SliderProps = {
     },
   },
   milOneSlider: {
+    modules,
     slidesPerView: 1,
     spaceBetween: 30,
     speed: 800,
@@ -103,6 +107,7 @@ export const SliderProps = {
     },
   },
   milTwoSlider: {
+    modules,
     slidesPerView: 1,
     spaceBetween: 30,
     speed: 800,
